@@ -2,5 +2,11 @@
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  }
+  },
+  "cSpell.words": [
+    "finsweet",
+    "gsap",
+    "minisite",
+    "navitem"
+  ]
 }

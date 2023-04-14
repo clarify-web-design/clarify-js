@@ -1,10 +1,12 @@
 {
-  "extends": "@finsweet/tsconfig",
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "include": ["src/**/*"],
   "compilerOptions": {
-    "rootDir": ".",
-    "baseUrl": "./",
+    "removeComments": true,
+    "baseUrl": "./src",
     "paths": {
-      "$utils/*": ["src/utils/*"]
+      "@utils/*": ["utils/*"],
+      "@lib": ["lib/"]
     },
     "types": ["@finsweet/ts-utils"]
   }
